@@ -386,7 +386,7 @@ app.get('/', (req, res) => {
   `);
 });
 
-const PORT = 3000;
+const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`\n🎭 DEMO Server running (no Arduino needed)!`);
   console.log(`🌐 Open your browser to: http://localhost:${PORT}`);
